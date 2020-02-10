@@ -1,6 +1,7 @@
 import React from 'react';
 import {NavLink} from 'react-router-dom'
 import '../../../src/App.css'
+import { SearchForm } from '../Movie/SearchForm';
 
 function Navbar() {
   return (
@@ -65,7 +66,12 @@ function Navbar() {
             </NavLink>
 
             <li className="nav-item d-inline-block mr-4">
-<input placeholder="type anything here"/>
+            <input 
+                    type="text"
+              className="fa fa-search"
+              name="searchText"
+              placeholder="Search Movies, TV Series ..."
+             />
             </li>
           </ul>
         </div>
