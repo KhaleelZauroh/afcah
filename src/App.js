@@ -35,7 +35,8 @@ function App() {
 <Redirect from= "/hom" to = "/home" />
 <Redirect from= "/movie" to = "/movies" />
 <Route path="/home" exact component={Home} />
-<Route exact path="/movie/:id" component={Movie} />
+<Route exact path="/movie" component={Movie} />
+{/* <Route exact path="/movie/:id" component={Movie} /> */}
 <Route exact path="/" component={SearchForm} />
 <Route path="/genre" exact component={Genre} />
 <Route path="/Country" exact  component={Country} />

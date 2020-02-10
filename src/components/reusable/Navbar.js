@@ -30,7 +30,7 @@ function Navbar() {
             Country
             </li>
             </NavLink>
-            <NavLink to="/country" activeStyle={{color:'turquoise'}}>
+            <NavLink to="/movie" activeStyle={{color:'turquoise'}}>
 
             <li className="nav-item text-info d-inline-block mr-4">
             Movies
