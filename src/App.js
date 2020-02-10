@@ -31,9 +31,11 @@ function App() {
     <div className="App bg-dark text-light">
     <Navbar />
     <Switch>
-{/* <Redirect from= "/home" to = "/" /> */}
+<Redirect from= "/landing" to = "/" />
+<Redirect from= "/hom" to = "/home" />
+<Redirect from= "/movie" to = "/movies" />
 <Route path="/home" exact component={Home} />
-{/* <Route exact path="/movie/:id" component={Movie} /> */}
+<Route exact path="/movie/:id" component={Movie} />
 <Route exact path="/" component={SearchForm} />
 <Route path="/genre" exact component={Genre} />
 <Route path="/Country" exact  component={Country} />
